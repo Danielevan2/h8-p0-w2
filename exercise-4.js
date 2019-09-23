@@ -27,8 +27,8 @@ switch(bulan){
     break;
     case 12: bulan = 'Desember';
     break;
-    default: bulan = '-'
+    default: bulan = '-' ;
 
 }
 
-console.log(hari + ' ' + bulan + ' ' + tahun)
+console.log(hari + ' ' + bulan + ' ' + tahun) ;
