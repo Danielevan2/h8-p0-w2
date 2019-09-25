@@ -29,32 +29,26 @@ for(var y = 21 ; y >= 1 ; y--){
 // 3. Angka Ganjil dan Genap
 for(x = 1 ; x < 100 ; x++){
     if(x % 2 == 0){
-    console.log('GENAP')
+    console.log('GENAP') ;
     } else{
-    console.log('GANJIL')
+    console.log('GANJIL') ;
     }
 }
 // kelipatan 2
 for(r = 1 ; r < 100; r += 2){
-if(r == 1){
-    console.log("")
-}else{
-    console.log( r + ' KELIPATAN ' + r )
+if(r % 3 == 0){
+    console.log(r + ' KELIPATAN 3') ;
 }
 }
 //kelipatan 5
 for(d = 1 ; d < 100 ; d += 5){
-    if(r == 1){
-        console.log("")
-    }else{
-        console.log( d + ' KELIPATAN ' + d )
+    if(d % 6 == 0){
+        console.log(d + ' KELIPATAN 6') ;
     }
     }
 // kelipatan 9
 for(k = 1 ; k < 100 ; k += 9){
-if(r == 1){
-    console.log("")
-}else{
-    console.log( k + ' KELIPATAN ' + k )
+if(k % 10 == 0){
+    console.log(k + ' KELIPATAN 10') ;
 }
 }
